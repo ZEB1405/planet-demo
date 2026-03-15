@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="fonts/Jura-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+    <meta name="description" content="Explore fascinating facts about Jupiter, the largest planet in our solar system. Discover its Great Red Spot, many moons, and stunning high-resolution imagery.">
+</head>
+<body> 
+    <!-- headeren/logo og nav baren, My adde en anchor også, Kommer etter kvart -->
+<header> 
+    <nav class="navbar">
+        <div class="logo">JUPITER</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#facts">Facts</a></li>
+                <li><a href="#pictures">Pictures</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- Main er da "explore jupiter" og topp forklaringen -->
+    <main>
+        <div class="planet-wrapper">
+            <img src="images/jupiter.webp" alt="color rich jupiter" fetchpriority="high" type="image/webp">
+            <section id="hero">
+                <h1 class="title">JUPITER</h1>                                                               <!-- Endra class names, fiksa indentations, fjerna main class declaration og tok i bruk sections -->
+                <p class="tagline">A world too vast for the mind <br> to fully hold</p>
+                <a class="cta-btn" href="#facts">Explore Jupiter</a>                  <!-- Endra til anchor tag, p tag funka ikkje som button -->
+            </section>
+            <section id="facts">
+                <h2 class="factsLogo">FACTS</h2>
+            <div class="fact-grid"> 
+                <div class="card-1">
+                    <h2>Potential for Life</h2>
+                    <p>Jupiter’s environment is probably not conducive to life as we know it. The temperatures, pressures, and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to.
+                        While planet Jupiter is an unlikely place for living things to take hold, the same is not true of some of its many moons. Europa is one of the likeliest places to find life elsewhere in our solar system. There is evidence of a vast ocean just beneath its icy crust, where life could possibly be supported.</p>
+                </div>
+                <div class="card-2">
+                    <h2>Size and Distance</h2>
+                    <p>With a radius of 43,440.7 miles (69,911 kilometers), Jupiter is 11 times wider than Earth. If Earth were the size of a grape, Jupiter would be about as big as a basketball.
+                        From an average distance of 484 million miles (778 million kilometers), Jupiter is 5.2 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 43 minutes to travel from the Sun to Jupiter.</p>
+                </div>
+                <div class="card-3">
+                    <h2>Orbit and Rotation</h2>
+                    <p>Jupiter has the shortest day in the solar system. One day on Jupiter takes 9.9 hours (the time it takes for Jupiter to rotate or spin around once), and Jupiter makes a complete orbit around the Sun (a year in Jovian time) in about 12 Earth years (4,333 Earth days). Its equator is tilted with respect to its orbital path around the Sun by just 3 degrees. This means Jupiter spins nearly upright and does not have seasons as extreme as other planets do.</p>
+                </div>
+                <div class="card-4">
+                    <h2>Rings</h2>
+                    <p>Discovered in 1979 by NASA's Voyager 1 spacecraft, Jupiter's rings were a surprise. The rings are composed of small, dark particles, and they are difficult to see except when backlit by the Sun. Data from the Galileo spacecraft indicate that  Jupiter's ring system may be formed by dust kicked up as interplanetary meteoroids smash into the giant planet's small innermost moons.</p>
+                </div>
+            </div>
+            </section>
+        </div>
+    </main>
+        <section id="pictures">
+            <h2>PICTURES</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="images/greatredspot (1).webp" alt="Close up shot of Jupiter's Great Red Spot" fetchpriority="high">
+                    <div class="gallery-content">
+                        <h3>The Great Red Spot</h3>
+                        <p>An anticyclonic storm larger than Earth itself.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/PIA24791_Ganymede_Infrared-1 (1).webp" alt="Infrared shot of Jupiter's moon Ganymede" fetchpriority="high">
+                    <div class="gallery-content">
+                        <h3>Ganymede</h3>
+                        <p>The only moon known to have its own magnetic field.</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="images/Jupiter south pole (1).webp" alt="Jupiter's south pole, as seen by NASA's Juno spacecraft from an altitude of 32,000 miles (52,000 kilometers)." fetchpriority="high">
+                    <div class="gallery-content">
+                        <h3>Jupiter's South Pole</h3>
+                        <p>Cyclones at the poles create a stunning blue hue.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
+
+<!-- Image source: https://science.nasa.gov/gallery/jupiter/ -->
